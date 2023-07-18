@@ -4,6 +4,7 @@ import com.example.CarMs.commonApi.commands.RemoveCarCommand;
 import com.example.CarMs.commonApi.commands.UpdateCarCommand;
 import com.example.CarMs.commonApi.dtos.AddCarRequestDTO;
 import com.example.CarMs.commonApi.dtos.UpdateCarRequestDTO;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.eventsourcing.eventstore.EventStore;
@@ -11,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;

@@ -1,12 +1,14 @@
 package com.example.CarMs.queries.entities;
 
 import com.example.CarMs.commonApi.enums.CarStatus;
-import com.example.CarMs.commonApi.events.CarUpdatedEvent;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
 
 @Entity
 @AllArgsConstructor

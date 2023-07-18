@@ -17,14 +17,14 @@ import org.axonframework.spring.stereotype.Aggregate;
 @Aggregate
 public class CarAggregate {
     @AggregateIdentifier
-    private String CarId;
-    private String marque;
-    private String modele;
-    private String immatriculation;
-    private String couleur;
-    private int nbrPlace;
-    private String type;
-    private CarStatus status;
+   String CarId;
+    String marque;
+   String modele;
+    String immatriculation;
+     String couleur;
+    int nbrPlace;
+    String type;
+   CarStatus status;
 
     public CarAggregate() {
         //Required by Axon

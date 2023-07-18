@@ -2,7 +2,7 @@ package com.example.CarMs.commonApi.commands;
 
 import lombok.Getter;
 
-public class AddCarCommand extends baseCommand<String>{
+public class AddCarCommand extends BaseCommand<String>{
 
     @Getter private String marque;
     @Getter private String modele;

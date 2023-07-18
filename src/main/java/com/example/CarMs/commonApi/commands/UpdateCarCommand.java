@@ -1,6 +1,6 @@
 package com.example.CarMs.commonApi.commands;
 import lombok.Getter;
-public class UpdateCarCommand extends baseCommand<String>{
+public class UpdateCarCommand extends BaseCommand<String>{
     @Getter private String marque;
     @Getter private String modele;
     @Getter private String immatriculation;
